@@ -4,6 +4,8 @@
 from flask import render_template
 from app import app
 from newsapi import NewsApiClient
+from instance.config import NEWS_API_KEY
+
 
 
 # Views
@@ -13,7 +15,7 @@ def index() :
   View root page function that returns the index page and its data
   '''
 
-  newsapi = NewsApiClient(api_key='MOVIE_API_KEY')
+  newsapi = NewsApiClient(api_key = NEWS_API_KEY)
 
   # Getting top headlines
   topHeadlines = newsapi.get_top_headlines(sources='bbc-news')
@@ -46,4 +48,4 @@ def index() :
 
   title = 'Rejelea - Where updates find you.'
 
-  return render_template('index.html', title = title)
+  return render_template('index.html', title = title, content = content)

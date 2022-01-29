@@ -31,6 +31,24 @@
     <div class="container-fluid clear">
       <img src="../static/images/img.jpeg" alt="Don't miss out" title="Mastercard ad">
     </div>
+
+    <div class="container-fluid">
+
+      <h1>Top Headlines</h1>
+
+      {% for title,description,img,url,dated in content %}
+
+      <div class="wrapper">
+        <div class="item">
+          <a href="{{url}}">
+            <img src="{{img}}" alt="{{title}}">
+          </a>
+        </div>
+      </div>
+
+      {% endfor %}
+
+    </div>
   
   </body>
   
