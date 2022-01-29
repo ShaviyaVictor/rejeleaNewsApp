@@ -13,6 +13,10 @@ def index() :
   View root page function that returns the index page and its data
   '''
 
+  newsapi = NewsApiClient(api_key='MOVIE_API_KEY')
+
+
+
   title = 'Rejelea - Where updates find you.'
 
   return render_template('index.html', title = title)
