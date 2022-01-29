@@ -24,18 +24,27 @@
       <img src="../static/images/img.jpeg" alt="Don't miss out" title="Mastercard ad">
     </div>
 
-    <div class="container-fluid">
+    <div class="container">
+
+      <h1 id="sum"><span>rejelea</span> is a place to get informed.<br>Too much happening?<br>Don't worry.<br>We ensure everyone is in the know.</h1>
+
+      <hr>
 
       <h1>Top Headlines</h1>
 
       {% for title,description,img,url,dated in content %}
 
-      <div class="wrapper">
-        <div class="item">
-          <a href="{{url}}">
-            <img src="{{img}}" alt="{{title}}" title="{{title}}">
-          </a>
-          <caption>{{ title }}</caption>
+      <div class="card" style="width: 45rem;">
+        
+        <a href="{{url}}">
+          <h4 class="card-title">{{ title }}</h4>
+          <img class="card-img-top sized" src="{{img}}" alt="{{title}}" title="{{title}}">
+        </a>
+        <p class="text">{{ description }}</p>
+        <div class="card-body">          
+          
+          <a href="{{url}}" class="btn btn-primary">Read more...</a>
+          
         </div>
       </div>
 

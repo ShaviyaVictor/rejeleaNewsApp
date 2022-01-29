@@ -1,5 +1,9 @@
 /* Contains index page styles */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;600&display=swap');
 
+h1, h2, h3, h4, h5, h6, p{
+  font-family: 'Hind Madurai', sans-serif;
+}
 
 .search {
   float: right;
@@ -8,4 +12,39 @@
 .clear {
   clear: both;
   text-align: center;
+}
+.sized {
+  width: 50em;
+  height: 25em;
+  float: left!important;
+}
+h4 {
+  font-weight: 700;
+}
+h1>span {
+  font-size: 10rem;
+  float: left;
+  letter-spacing: -0.05em;
+  
+}
+h1#sum {
+  font-size: 4rem;
+}
+
+a>h4.card-title{
+  color: blue;
+}
+
+a>h4.card-title:hover{
+  color: red;
+}
+
+p.text {
+  font-size: 1.2em;
+}
+
+a.btn-primary {
+  background-color: #C4C4C4;
+  color: black;
+  border: none;
 }
