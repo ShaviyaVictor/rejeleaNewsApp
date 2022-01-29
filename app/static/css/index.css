@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6, p{
   text-align: center;
 }
 .sized {
-  width: 50em;
+  width: 43.5em;
   height: 25em;
   float: left!important;
 }
@@ -42,10 +42,17 @@ a>h4.card-title:hover{
 
 p.text {
   font-size: 1.2em;
+  padding: 0.5rem;
 }
 
 a.btn-primary {
   background-color: #C4C4C4;
   color: black;
   border: none;
+}
+
+.card {
+  background-color: #EEEEEE;
+  padding: 1rem;
+  margin: 1rem;
 }
