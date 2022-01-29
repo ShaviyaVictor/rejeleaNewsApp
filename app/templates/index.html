@@ -12,13 +12,14 @@
     <title>rejelea</title>
     {% endif %}
 
-
+    <!-- Styles block -->
+      <link rel="stylesheet" href="{{url_for('static', filename = 'css/index.css')}}">
 
 
   </head>
   <body>
     
-    <div class="container-fluid">
+    <div class="container-fluid search">
   
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -27,7 +28,7 @@
     
     </div>
     
-    <div class="container-fluid">
+    <div class="container-fluid clear">
       <img src="../static/images/img.jpeg" alt="Don't miss out" title="Mastercard ad">
     </div>
   

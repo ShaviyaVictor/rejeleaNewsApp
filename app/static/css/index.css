@@ -1,2 +1,11 @@
 /* Contains index page styles */
 
+
+.search {
+  float: right;
+  margin: 2rem;
+}
+.clear {
+  clear: both;
+  text-align: center;
+}
