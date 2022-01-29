@@ -27,7 +27,11 @@ def index() :
   dated = []
   title = []
   description = []
-  
+
+  # Fetch all contents using the for loop
+  for i in range(len(allArticles)) :
+    mainArticle = allArticles[i]
+
 
 
   title = 'Rejelea - Where updates find you.'
