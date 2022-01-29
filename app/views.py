@@ -22,6 +22,11 @@ def index() :
   allArticles = topHeadlines['articles']
 
   # Make a list of contents to store the values of my fetched data
+  img = []
+  url = []
+  dated = []
+  title = []
+  description = []
   
 
 
