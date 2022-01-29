@@ -32,6 +32,13 @@ def index() :
   for i in range(len(allArticles)) :
     mainArticle = allArticles[i]
 
+    #  Append all the contents to their respective list holders
+    title.append(mainArticle['title'])
+    description.append(mainArticle['description'])
+    img.append(mainArticle['urlToImage'])
+    url.append(mainArticle['url'])
+    dated.append(mainArticle['publishedAt'])
+
 
 
   title = 'Rejelea - Where updates find you.'
