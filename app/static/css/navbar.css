@@ -1,0 +1,26 @@
+.custom{
+  font-size: 3em;
+  padding-right: 6%;
+}
+
+.bg-light {
+  padding: 5rem 0rem 2.5rem 6%;
+  background-color: #BC331A;
+}
+
+
+a {
+  color: #fff;
+}
+
+.link {
+  margin: 0em 1em;
+}
+
+.link {
+  cursor: pointer;
+}
+
+.link:hover {
+  color: #E5E5E5;
+}
