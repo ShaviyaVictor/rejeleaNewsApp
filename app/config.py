@@ -8,7 +8,6 @@ class Config :
 
 
 
-
 class ProdConfig(Config) :
   '''
   Production configuration child class

@@ -1,20 +1,12 @@
+{% extends 'base.html' %}
 
 
-<!DOCTYPE html>
-<html>
+{% block content %}
 
   <head>
 
-    <meta charset="utf-8">
-    {% if title %}
-    <title> {{ title }} </title>
-    {% else %}
-    <title>rejelea</title>
-    {% endif %}
-
     <!-- Styles block -->
       <link rel="stylesheet" href="{{url_for('static', filename = 'css/index.css')}}">
-
 
   </head>
   <body>
@@ -41,8 +33,9 @@
       <div class="wrapper">
         <div class="item">
           <a href="{{url}}">
-            <img src="{{img}}" alt="{{title}}">
+            <img src="{{img}}" alt="{{title}}" title="{{title}}">
           </a>
+          <caption>{{ title }}</caption>
         </div>
       </div>
 
@@ -52,7 +45,5 @@
   
   </body>
   
-
-</html>
-
+{% endblock %}
 
