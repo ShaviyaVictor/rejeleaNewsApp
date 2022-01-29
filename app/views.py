@@ -39,6 +39,9 @@ def index() :
     url.append(mainArticle['url'])
     dated.append(mainArticle['publishedAt'])
 
+    # Create a zip for finding the contents directly and faster
+    content = zip(title,description,img,url,dated)
+
 
 
   title = 'Rejelea - Where updates find you.'
