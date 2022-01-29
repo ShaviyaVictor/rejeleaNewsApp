@@ -18,6 +18,12 @@ def index() :
   # Getting top headlines
   topHeadlines = newsapi.get_top_headlines(sources='bbc-news')
 
+  # Fetching all the articles from the headline news
+  allArticles = topHeadlines['articles']
+
+  # Make a list of contents to store the values of my fetched data
+  
+
 
   title = 'Rejelea - Where updates find you.'
 
