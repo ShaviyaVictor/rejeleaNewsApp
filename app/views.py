@@ -15,6 +15,8 @@ def index() :
 
   newsapi = NewsApiClient(api_key='MOVIE_API_KEY')
 
+  # Getting top headlines
+  topHeadlines = newsapi.get_top_headlines(sources='bbc-news')
 
 
   title = 'Rejelea - Where updates find you.'
