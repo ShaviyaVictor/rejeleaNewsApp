@@ -1,7 +1,7 @@
 # rejelea App
 
 This project was generated with [Python's Virtual CLI Environment](#) version 3.8.10     
-![rejelea_Screenshot](#)
+![rejelea_Screenshot](https://github.com/ShaviyaVictor/rejeleaNewsApp/blob/master/app/static/images/rejeleaScreenshot.png)
 
 #### Author
 **Victor Shaviya**    
@@ -17,7 +17,7 @@ The user should be able to:
 
 #### Live link to site
 The project was deployed to GitHub pages for publication.     
-To view the [project's live site](#).
+To view the [project's live site](https://rejelea.herokuapp.com/).
 
 ## Application Setup Instructions
 - Open Terminal {Ctrl+Alt+T}     
